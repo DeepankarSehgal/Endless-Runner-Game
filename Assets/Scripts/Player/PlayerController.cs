@@ -100,11 +100,13 @@ public class PlayerController : MonoBehaviour
         }
 
         //Calculate where we should be in the future
-        Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
+        float targetX = 0f; // Middle lane (lane 1)
         if (desiredLane == 0)
-            targetPosition += Vector3.left * laneDistance;
+            targetX = -laneDistance; // Left lane
         else if (desiredLane == 2)
-            targetPosition += Vector3.right * laneDistance;
+            targetX = laneDistance; // Right lane
+        
+        Vector3 targetPosition = new Vector3(targetX, transform.position.y, transform.position.z);
 
         //transform.position = targetPosition;
         if (transform.position != targetPosition)

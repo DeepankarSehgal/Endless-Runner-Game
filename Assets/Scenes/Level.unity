@@ -594,7 +594,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5060548784439567321, guid: e7d3038d5fe4baa4a88ec0cdcc4ebaa3, type: 3}
+    - {fileID: 15669399090076514, guid: e7d3038d5fe4baa4a88ec0cdcc4ebaa3, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7d3038d5fe4baa4a88ec0cdcc4ebaa3, type: 3}
@@ -826,7 +828,8 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7185450222919227085, guid: 67dac68211e5d96458c050e6b54fb4be, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67dac68211e5d96458c050e6b54fb4be, type: 3}
@@ -1111,7 +1114,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6021696671527975595, guid: d7302ebc4d523fc44b9ff5e94e8dfa81, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7302ebc4d523fc44b9ff5e94e8dfa81, type: 3}
@@ -1269,7 +1273,7 @@ MonoBehaviour:
   - {fileID: 1308194603}
   - {fileID: 1132170276}
   tileLength: 30
-  numberOfTiles: 3
+  numberOfTiles: 6
   totalNumOfTiles: 8
   zSpawn: -400
 --- !u!1 &587846186
@@ -2471,7 +2475,8 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7185450222919227085, guid: 67dac68211e5d96458c050e6b54fb4be, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67dac68211e5d96458c050e6b54fb4be, type: 3}
@@ -2590,7 +2595,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 15669399090076514, guid: e7d3038d5fe4baa4a88ec0cdcc4ebaa3, type: 3}
+    - {fileID: 5060548784439567321, guid: e7d3038d5fe4baa4a88ec0cdcc4ebaa3, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7d3038d5fe4baa4a88ec0cdcc4ebaa3, type: 3}
@@ -3067,7 +3074,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6021696671527975595, guid: d7302ebc4d523fc44b9ff5e94e8dfa81, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7302ebc4d523fc44b9ff5e94e8dfa81, type: 3}
@@ -3150,7 +3158,8 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7185450222919227085, guid: 67dac68211e5d96458c050e6b54fb4be, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67dac68211e5d96458c050e6b54fb4be, type: 3}
@@ -4486,7 +4495,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6021696671527975595, guid: d7302ebc4d523fc44b9ff5e94e8dfa81, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7302ebc4d523fc44b9ff5e94e8dfa81, type: 3}
@@ -4839,7 +4849,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5060548784439567321, guid: e7d3038d5fe4baa4a88ec0cdcc4ebaa3, type: 3}
+    - {fileID: 15669399090076514, guid: e7d3038d5fe4baa4a88ec0cdcc4ebaa3, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7d3038d5fe4baa4a88ec0cdcc4ebaa3, type: 3}
