@@ -16,7 +16,7 @@ public class Gem : MonoBehaviour
             }
 
             PlayerPrefs.SetInt("TotalGems", PlayerPrefs.GetInt("TotalGems", 0) + 1);
-            FindObjectOfType<AudioManager>().PlaySound("PickUp");
+            FindFirstObjectByType<AudioManager>().PlaySound("PickUp");
             PlayerManager.score += 2;
             gameObject.SetActive(false);
         }

@@ -20,8 +20,9 @@ public class FloatingOrigin : MonoBehaviour
                     g.transform.position -= cameraPosition;
             }
 
-            FindObjectOfType<TileManager>().zSpawn = 60;
+            FindFirstObjectByType<TileManager>().zSpawn = 60;
         }
         
     }
+
 }

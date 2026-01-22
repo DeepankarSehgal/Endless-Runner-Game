@@ -17,15 +17,12 @@ public class PlayerManager : MonoBehaviour
     public TextMeshProUGUI newRecordText;
 
     public static bool isGamePaused;
-    public GameObject[] characterPrefabs;
+    public GameObject characterPrefabs;
 
-    private AdManager adManager;
 
     private void Awake()
     {
-        int index = PlayerPrefs.GetInt("SelectedCharacter");
-        GameObject go = Instantiate(characterPrefabs[index], transform.position, Quaternion.identity);
-        adManager = FindObjectOfType<AdManager>();
+        GameObject go = Instantiate(characterPrefabs, transform.position, Quaternion.identity);
     }
 
     void Start()
@@ -33,10 +30,6 @@ public class PlayerManager : MonoBehaviour
         score = 0;
         Time.timeScale = 1;
         gameOver = isGameStarted = isGamePaused= false;
-
-        adManager.RequestBanner();
-        adManager.RequestInterstitial();
-        adManager.RequestRewardBasedVideo();
     }
 
     void Update()
@@ -54,16 +47,7 @@ public class PlayerManager : MonoBehaviour
                 newRecordPanel.SetActive(true);
                 newRecordText.text = "New \nRecord\n" + score;
                 PlayerPrefs.SetInt("HighScore", score);
-            }
-            else
-            {
-                int i = Random.Range(0, 6);
-                if (i == 0)
-                    adManager.ShowInterstitial();
-                else if (i == 3)
-                    adManager.ShowRewardBasedVideo();
-            }
-            
+            }         
             gameOverPanel.SetActive(true);
             Destroy(gameObject);
         }
